@@ -20,7 +20,7 @@ const FONT_MONO = "'IBM Plex Mono', monospace";
 
 // ---------- Terminal test-run data (the signature element) ----------
 const TEST_LINES = [
-  { name: "experience.years >= 3", time: "0.31s" },
+  { name: "experience.years >= 4", time: "0.31s" },
   { name: "domains.include('banking', 'telecom')", time: "0.18s" },
   { name: "clients.include('ANZ Bank')", time: "0.22s" },
   { name: "manual.regression && manual.uat", time: "0.09s" },
@@ -305,7 +305,7 @@ export default function Portfolio() {
             <span style={{ color: C.pass }}>before your users do.</span>
           </h1>
           <p className="mt-5 text-base sm:text-lg leading-relaxed" style={{ color: C.muted, maxWidth: 520 }}>
-            QA Engineer with 3+ years testing banking, telecom and enterprise
+            QA Engineer with 4+ years testing banking, telecom and enterprise
             applications — manual, Selenium automation, API and database testing.
             Trusted on production systems for <strong style={{ color: C.ink }}>ANZ Bank</strong> and{" "}
             <strong style={{ color: C.ink }}>BT Group</strong>.
@@ -329,7 +329,7 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm" style={{ fontFamily: FONT_MONO, color: C.muted }}>
-            <span><strong style={{ color: C.ink }}>3+</strong> yrs experience</span>
+            <span><strong style={{ color: C.ink }}>4+</strong> yrs experience</span>
             <span><strong style={{ color: C.ink }}>3</strong> enterprise clients</span>
             <span><strong style={{ color: C.ink }}>Banking</strong> · Telecom · SaaS</span>
           </div>
